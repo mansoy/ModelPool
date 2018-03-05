@@ -1,0 +1,93 @@
+KEmulator Lite v0.9.8 Running...
+Get classes from ÊÖ»ú½ñÅÆ\MobileToken(KJava)Beta1_Build0024.jar
+Get class aj
+Get class g
+Get class y
+Get class ba
+Get class aa
+Get class as
+Get class p
+Get class ae
+Get class aw
+Get class bj
+Get class b
+Get class t
+Get class bn
+Get class x
+Get class an
+Get class k
+Get class ar
+Get class be
+Get class o
+Get class com.tencent.token.b
+Get class av
+Get class bi
+Get class s
+Get class ai
+Get class f
+Get class bm
+Get class am
+Get class j
+Get class com.tencent.token.MainMidlet
+Get class aq
+Get class bd
+Get class n
+Get class com.tencent.token.a
+Get class ad
+Get class a
+Get class bh
+Get class ah
+Get class az
+Get class e
+Get class w
+Get class al
+Get class i
+Get class bc
+Get class ac
+Get class au
+Get class r
+Get class ay
+Get class bl
+Get class v
+Get class bp
+Get class z
+Get class ap
+Get class m
+Get class at
+Get class bg
+Get class q
+Get class ag
+Get class d
+Get class bk
+Get class u
+Get class ak
+Get class h
+Get class bo
+Get class ao
+Get class bb
+Get class l
+Get class ab
+Get class bf
+Get class af
+Get class ax
+Get class c
+Custom.jar.getResourceStream: /icon.png (4781)
+Launch MIDlet class: com.tencent.token.MainMidlet
+openRecordStore token_config
+getRecord token_config_1
+openRecordStore token_config
+getRecord token_config_2
+openRecordStore token_config
+getRecord token_config_3
+openRecordStore token_config
+getRecord token_config_4
+openRecordStore token_config
+getRecord token_config_5
+openRecordStore token_config
+getRecord token_config_6
+Custom.jar.getResourceStream: /num.png (4076)
+openRecordStore token_config
+getRecord token_config_7
+Custom.jar.getResourceStream: /ribon.png (null)
+Notify Destroyed
+Exiting Emulator

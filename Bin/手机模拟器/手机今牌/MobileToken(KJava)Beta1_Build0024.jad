@@ -1,0 +1,8 @@
+MIDlet-1: QQ手机令牌,/icon.png,com.tencent.token.MainMidlet
+MIDlet-Jar-Size: 123561
+MIDlet-Jar-URL: MobileToken(KJava)Beta1_Build0024.jar
+MIDlet-Name: QQ手机令牌
+MIDlet-Vendor: Tencent
+MIDlet-Version: 10.0.24
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0

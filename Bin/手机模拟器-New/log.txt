@@ -1,0 +1,148 @@
+KEmulator Lite v0.9.8 Running...
+Get classes from ÊÖ»ú½ñÅÆ\MobileToken(KJava)Beta1_Build0024.jar
+Get class aj
+Get class g
+Get class y
+Get class ca
+Get class cs
+Get class ba
+Get class bs
+Get class aa
+Get class as
+Get class p
+Get class bw
+Get class cj
+Get class ae
+Get class aw
+Get class bj
+Get class b
+Get class t
+Get class cn
+Get class bn
+Get class x
+Get class an
+Get class cr
+Get class k
+Get class br
+Get class ce
+Get class ar
+Get class be
+Get class o
+Get class com.tencent.token.b
+Get class ci
+Get class av
+Get class bi
+Get class s
+Get class ai
+Get class cm
+Get class f
+Get class bm
+Get class am
+Get class j
+Get class cd
+Get class com.tencent.token.MainMidlet
+Get class aq
+Get class bd
+Get class bv
+Get class n
+Get class com.tencent.token.a
+Get class ad
+Get class a
+Get class bh
+Get class bz
+Get class ah
+Get class az
+Get class e
+Get class w
+Get class cq
+Get class al
+Get class bq
+Get class i
+Get class bc
+Get class bu
+Get class ch
+Get class ac
+Get class au
+Get class r
+Get class by
+Get class cl
+Get class ay
+Get class bl
+Get class v
+Get class cp
+Get class bp
+Get class cc
+Get class z
+Get class ap
+Get class m
+Get class bt
+Get class cg
+Get class at
+Get class bg
+Get class q
+Get class ag
+Get class ck
+Get class d
+Get class bk
+Get class u
+Get class ak
+Get class h
+Get class bo
+Get class cb
+Get class ct
+Get class ao
+Get class bb
+Get class l
+Get class ab
+Get class cf
+Get class bf
+Get class bx
+Get class af
+Get class ax
+Get class c
+Get class co
+Custom.jar.getResourceStream: /icon.png (4781)
+Launch MIDlet class: com.tencent.token.MainMidlet
+openRecordStore token_config
+addRecord token_config_1
+openRecordStore token_config
+addRecord token_config_2
+openRecordStore token_config
+getRecord token_config_2
+addRecord token_config_3
+openRecordStore token_config
+getRecord token_config_3
+addRecord token_config_4
+openRecordStore token_config
+getRecord token_config_4
+addRecord token_config_5
+openRecordStore token_config
+getRecord token_config_5
+addRecord token_config_6
+openRecordStore token_config
+getRecord token_config_6
+Custom.jar.getResourceStream: /ribon.png (null)
+Custom.jar.getResourceStream: /num.png (12998)
+Custom.jar.getResourceStream: /shield.png (23942)
+addRecord token_config_7
+openRecordStore token_config
+getRecord token_config_7
+Custom.jar.getResourceStream: /no_set.png (3046)
+Custom.jar.getResourceStream: /set_over.png (3319)
+Custom.jar.getResourceStream: /child.png (2883)
+Custom.jar.getResourceStream: /logo.png (14892)
+System.getProperty#com.nokia.mid.imei=null
+System.getProperty#com.nokia.IMEI=null
+System.getProperty#com.sonyericsson.imei=null
+System.getProperty#com.sonyericsson.IMEI=null
+System.getProperty#com.samsung.imei=null
+System.getProperty#IMEI=null
+System.getProperty#phone.IMEI=null
+System.getProperty#com.siemens.IMEI=null
+Custom.jar.getResourceStream: /icon_uin_lock.png (3220)
+Custom.jar.getResourceStream: /icon_game_lock.png (3100)
+Custom.jar.getResourceStream: /icon_pwd.png (3104)
+Custom.jar.getResourceStream: /icon_qbqd.png (3532)
+Custom.jar.getResourceStream: /icon_game.png (3295)
+Notify Destroyed
+Exiting Emulator

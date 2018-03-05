@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3EF1661A-5A60-4882-9013-86F1C555DB8E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Client\SmsClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Server\Server.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SqlTool\SmsSqlTool.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="QuitSafe_Hand\QuitSafe_Hand.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SmsClient">
+        <MSBuild Projects="Client\SmsClient.dproj"/>
+    </Target>
+    <Target Name="SmsClient:Clean">
+        <MSBuild Projects="Client\SmsClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SmsClient:Make">
+        <MSBuild Projects="Client\SmsClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Server">
+        <MSBuild Projects="Server\Server.dproj"/>
+    </Target>
+    <Target Name="Server:Clean">
+        <MSBuild Projects="Server\Server.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Server:Make">
+        <MSBuild Projects="Server\Server.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SmsSqlTool">
+        <MSBuild Projects="SqlTool\SmsSqlTool.dproj"/>
+    </Target>
+    <Target Name="SmsSqlTool:Clean">
+        <MSBuild Projects="SqlTool\SmsSqlTool.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SmsSqlTool:Make">
+        <MSBuild Projects="SqlTool\SmsSqlTool.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="QuitSafe_Hand">
+        <MSBuild Projects="QuitSafe_Hand\QuitSafe_Hand.dproj"/>
+    </Target>
+    <Target Name="QuitSafe_Hand:Clean">
+        <MSBuild Projects="QuitSafe_Hand\QuitSafe_Hand.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QuitSafe_Hand:Make">
+        <MSBuild Projects="QuitSafe_Hand\QuitSafe_Hand.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SmsClient;Server;SmsSqlTool;QuitSafe_Hand"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SmsClient:Clean;Server:Clean;SmsSqlTool:Clean;QuitSafe_Hand:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SmsClient:Make;Server:Make;SmsSqlTool:Make;QuitSafe_Hand:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

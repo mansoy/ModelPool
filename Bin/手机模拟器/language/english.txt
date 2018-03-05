@@ -1,0 +1,355 @@
+﻿#========================
+#KEmulator localization
+# 
+#      English
+#
+# @liang.wu
+#========================
+
+LOCAL_ENCODEING = UTF-8
+
+#Main Frame
+
+MENU_MIDLET = Midlet
+MENU_TOOL   = Tool
+MENU_VIEW   = View
+
+MENU_MIDLET_LOAD_JAR = Load jar ...
+MENU_MIDLET_LOAD_WITH_CONSOLE = Load with console
+MENU_MIDLET_LOAD_AUTO_PLAY = Load auto-play record
+MENU_MIDLET_RECENTLY = Recently jarfiles
+MENU_MIDLET_2DENGINE = 2D Graphics Engine
+MENU_MDILET_3DENGINE = 3D Graphics Engine
+
+MENU_MIDLET_SUSPEND  = Suspend
+MENU_MIDLET_RESUME   = Resume
+MENU_MIDLET_PAUSE_STEP = Pause/Step
+MENU_MIDLET_PLAY_RESUME= Play/Resume
+
+MENU_MIDLET_RESTART = Restart
+MENU_MIDLET_EXIT    = Exit
+
+
+MENU_VIEW_INFO   = Infos
+MENU_VIEW_XRAY   = X-Ray View
+MENU_VIEW_TOP    = Always On Top
+MENU_VIEW_ROTATE = Rotate 90°
+MENU_VIEW_FORCE_PAINT = Force Paint
+
+MENU_VIEW_KEYPAD   = Keypad
+MENU_VIEW_WATCHES  = Watches
+MENU_VIEW_PROFILER = Profiler
+MENU_VIEW_METHODS  = Methods
+MENU_VIEW_MEMORY   = Memory View
+MENU_VIEW_M3GVIEW  = M3G View
+MENU_VIEW_SMS      = SMS Console
+MENU_VIEW_LOG      = Log
+
+MENU_VIEW_OPTIONS  = Options...
+MENU_VIEW_HELP     = Help
+MENU_VIEW_REGISTER = Register Info
+
+MENU_TOOL_ZOOMIN   = Zoom In
+MENU_TOOL_ZOOMOUT  = Zoom Out
+MENU_TOOL_INTERPOSE= Interpolation
+MENU_TOOL_INTER_NEAREST = NearestNeighbor
+MENU_TOOL_INTER_HIGH    = HighQuality
+MENU_TOOL_INTER_LOW     = LowQuality
+
+MENU_TOOL_SPPEDUP   = Speed Up
+MENU_TOOL_SPPEDDONW = Slow Down
+
+MENU_TOOL_TICKSTART = Start/Pause Tick
+MENU_TOOL_TICKRESET = Reset Tick
+MENU_TOOL_RECORD_KEY= Record Keys
+MENU_TOOL_AUTO_PLAY = Enable Autoplay
+MENU_TOOL_CAPTURE_FILE = Capture to File
+MENU_TOOL_CAPTURE_CLIP = Capture to ClipBoard
+
+MENU_TOOL_START_RECORD_AVI = Start Record AVI
+MENU_TOOL_STOP_RECORD_AVI  = Stop Record AVI
+
+MENU_TOOL_CONN_NETWORK    = Connect to Network  
+MENU_TOOL_DISCONN_NETWORK = Disconnect to Network
+MENU_TOOL_CHANNEL_UP      = Channel up
+MENU_TOOL_CHANNEL_DOWN    = Channel down
+
+MENU_TOOL_SHOW_TRACK_INFO = Show Track Info
+
+#Command bar
+
+MAIN_INFO_BAR_UNLOADED = UNLOADED
+MAIN_INFO_BAR_RUNNING  = RUNNING
+MAIN_INFO_BAR_PAUSED   = PAUSED
+MAIN_INFO_BAR_NET      = NET
+
+#Dialog
+
+SAVE_TO_FILE   = Save to file
+OPEN_JAR_FILE  = Open a jar file
+OPEN_REC_FILE  = Open a record file
+LINK_JAR_FILE  = Specify a jar file
+
+DIALOG_OK      = OK
+DIALOG_CANCEL  = Cancel
+
+
+#Info show
+
+INFO_FRAME_POS   = Pos 
+INFO_FRAME_COLOR = Color
+INFO_FRAME_RECT  = R
+
+
+#About Frame
+
+ABOUT_FRAME_TITLE   = About & Help
+ABOUT_INFO_EMULATOR = Mobile Game Emulator
+ABOUT_INFO_APIS     = Support APIs
+
+ABOUT_SUGGESTION    = Suggestions
+ABOUT_AUTHOR        = Author
+ABOUT_CHACK_NEW_VER = Check new version
+ABOUT_ONLINE_MANUAL = Online Manual
+
+
+#Bean Shell
+
+BSH_FRAME_FILE = File
+BSH_FRAME_HELP = Help
+BSH_FRAME_DOCUMENT = Bean Shell Document
+BSH_FRAME_LOAD = Load Script ...
+
+
+#Keypad
+
+KEYPAD_FRAME_TITLE = Keypad
+KEYPAD_FRAME_LSK   = Left Soft Key
+KEYPAD_FRAME_RSK   = Right Soft Key
+
+#Log Frame
+
+LOG_FRAME_TITLE = LogFrame
+
+
+#M3G View
+
+M3G_VIEW_TITLE   = M3G View
+M3G_VIEW_CAMERA  = Camera
+M3G_VIEW_LIGHT   = Light
+M3G_VIEW_DISPLAY = Display
+
+M3G_VIEW_LIGHT_SCENE   = Scene Graphics
+M3G_VIEW_LIGHT_VIEW    = Viewer Light
+M3G_VIEW_LIGHT_SETTING = Light Setting 
+
+M3G_VIEW_CAMERA_ORBIT  = Orbit
+M3G_VIEW_CAMERA_PAN    = Pan
+M3G_VIEW_CAMERA_DOLLY  = Dolly
+M3G_VIEW_CAMERA_ZOOM   = Zoom
+M3G_VIEW_CAMERA_PROJECTION  = Projection Mode
+M3G_VIEW_CAMERA_PERSPECTIVE = Perspective Projection
+M3G_VIEW_CAMERA_PARALLEL    = Parallel Projection
+
+M3G_VIEW_CAMERA_CLIP_PLANES   = Clipping Planes
+M3G_VIEW_CAMEAR_FIELD_OF_VIEW = Field of View
+M3G_VIEW_CAMEAR_POSITION      = Camera Position
+M3G_VIEW_CAMEAR_RESET         = Reset Camera
+
+M3G_VIEW_DISPLAY_COORDINATE   = Coordinate Axis
+M3G_VIEW_DISPLAY_SHOW_GRID    = Show Grid
+M3G_VIEW_DISPLAY_SHOW_XRAY    = Show Xray
+M3G_VIEW_DISPLAY_UPDATE_WORLD = Update World
+
+#M3G View Dialog
+
+M3G_VIEW_DIALOG_FOVY   = Fovy
+M3G_VIEW_DIALOG_NEAR   = Near
+M3G_VIEW_DIALOG_FAR    = Far
+
+#MemoryView
+
+MEMORY_VIEW_TITLE       = MemoryView
+MEMORY_VIEW_UPDATE      = Update
+MEMORY_VIEW_AUTO_UPDATE = AutoUpdate 
+MEMORY_VIEW_BYTECODE_SIZE = ByteCode Size:
+MEMORY_VIEW_TOTALMEM_SIZE = Total Memory Used:
+MEMORY_VIEW_OBJECT_SIZE   = Objects Size:
+MEMORY_VIEW_MAX_OBJECT_SIZE  = Max Objects Size:
+MEMORY_VIEW_INTERVAL      = Interval(milli sec):
+
+MEMORY_VIEW_IMAGES  = Images
+MEMORY_VIEW_SOUNDS  = Sounds
+
+MEMORY_VIEW_ZOOM    = Zoom:
+MEMORY_VIEW_SORT    = Sort:
+MEMORY_VIEW_SIZE    = Size:
+MEMORY_VIEW_ASCEND  = Ascending
+MEMORY_VIEW_IMAGES_DRAWN  = Images Drawn
+MEMORY_VIEW_UNUSED_REGION = Darken Unused Regions
+MEMORY_VIEW_RESET_IMAGE   = Reset Image Usage
+MEMORY_VIEW_IMAGE_NEVER_DRAW      = Images Never Drawn
+MEMORY_VIEW_RELEASED_IMAGES       = Released Images
+MEMORY_VIEW_CLEAR_RELEASED_IMAGES = Clear Released Images
+
+MEMORY_VIEW_SORT_REFERENCE  = Reference
+MEMORY_VIEW_SORT_SIZE       = Size
+MEMORY_VIEW_SORT_DRAW_COUNT = Draw Count
+
+MEMORY_VIEW_SAVE_AS          = Save As ...
+MEMORY_VIEW_SAVE_TO_FILE     = Save to file
+MEMORY_VIEW_SAVE_ALL         = Save All Images ...
+MEMORY_VIEW_SAVE_ALL_IMAGES  = Save all images
+MEMORY_VIEW_CHOOSE_DIRECTORY = Choose a directory
+
+MEMORY_VIEW_SOUND_START    = Start
+MEMORY_VIEW_SOUND_PAUSE    = Pause
+MEMORY_VIEW_SOUND_STOP     = Stop
+MEMORY_VIEW_SOUND_VOLUME   = Volume:
+MEMORY_VIEW_SOUND_PROGRESS = Progress:
+
+MEMORY_VIEW_INSTANCE     = Instance
+MEMORY_VIEW_CONTENT_TYPE = ContentType
+MEMORY_VIEW_STATE        = State
+MEMORY_VIEW_LOOP_COUNT   = LoopCount
+MEMORY_VIEW_DATA_SIZE    = DataSize
+
+MEMORY_VIEW_CLASS           = Class
+MEMORY_VIEW_INSTANCES       = Instances
+MEMORY_VIEW_TOTAL_HEAP_SIZE = Total Heap Size
+MEMORY_VIEW_REFERENCE       = Reference
+MEMORY_VIEW_SIZE            = Size
+
+
+#SMS Console
+
+SMS_CONSOLE_TITLE   = SMS Console
+
+SMS_CONSOLE_SEND_TO = Send to midlet
+SMS_CONSOLE_CLEAR   = Clear
+SMS_CONSOLE_SEND    = Send
+SMS_CONSOLE_RECEIVE = Receive from midlet
+SMS_CONSOLE_BLOCK   = Block the received message
+
+
+#Methods Frame
+
+METHOD_FRAME_TITLE           = Methods
+
+METHOD_FRAME_RESET_CALLS     = Reset Calls
+METHOD_FRAME_EXPORT_BYTECODE = Export ByteCode
+METHOD_FRAME_SAVE_BYTECODE   = Save all the methods bytecode:
+METHOD_FRAME_SEARCH          = Search
+
+#Waches Frame
+
+WATCHES_FRAME_TITLE     = Class Watcher
+WATCHES_FRAME_PROFILER  = Profiler Monitor
+
+
+#Option Frame
+
+OPTION_FRAME_TITLE = Options & Properties
+
+OPTION_TAB_CUSTOM  = Custom
+OPTION_TAB_KEYMAP  = KeyMap
+OPTION_TAB_SYSFONT = SysFont
+OPTION_TAB_SYSTEM  = System
+OPTION_TAB_COREAPI = CoreAPI
+OPTION_TAB_RECORDS = Records
+OPTION_TAB_NETWORK = Network
+
+OPTION_CUSTOM_DEVICE   = Device Select:
+OPTION_CUSTOM_ENCODING = Default Encoding:
+OPTION_CUSTOM_MAX_FPS  = Max FPS:
+
+OPTION_CUSTOM_PROPERTIES    = Custom Properties
+OPTION_CUSTOM_SCREEN_WIDTH  = Screen Width:
+OPTION_CUSTOM_SCREEN_HEIGHT = Screen Height:
+OPTION_CUSTOM_KEY_LSK    = Left Soft Key:
+OPTION_CUSTOM_KEY_RSK    = Right Soft Key:
+OPTION_CUSTOM_KEY_MIDDLE = Fire/Middle:
+OPTION_CUSTOM_KEY_UP     = Up:
+OPTION_CUSTOM_KEY_DOWN   = Down:
+OPTION_CUSTOM_KEY_LEFT   = Left:
+OPTION_CUSTOM_KEY_RIGHT  = Right:
+
+OPTION_KEYMAP_CONTROLLER = Controller:
+OPTION_KEYMAP_REFRESH = Refresh
+OPTION_KEYMAP_KEY_CACHE = Enable Key Cache
+OPTION_KEYMAP_LSK   = LeftSoftKey:
+OPTION_KEYMAP_RSK   = RightSoftKey:
+OPTION_KEYMAP_NUM_1 = Num_1:
+OPTION_KEYMAP_NUM_2 = Num_2:
+OPTION_KEYMAP_NUM_3 = Num_3:
+OPTION_KEYMAP_NUM_4 = Num_4:
+OPTION_KEYMAP_NUM_5 = Num_5:
+OPTION_KEYMAP_NUM_6 = Num_6:
+OPTION_KEYMAP_NUM_7 = Num_7:
+OPTION_KEYMAP_NUM_8 = Num_8:
+OPTION_KEYMAP_NUM_9 = Num_9:
+OPTION_KEYMAP_NUM_0 = Num_0:
+OPTION_KEYMAP_KEY_* = Key *:
+OPTION_KEYMAP_KEY_# = Key #:
+OPTION_KEYMAP_PAD_LEFT  = Pad_Left:
+OPTION_KEYMAP_PAD_RIGHT = Pad_Right:
+OPTION_KEYMAP_PAD_UP    = Pad_Up:
+OPTION_KEYMAP_PAD_DOWN  = Pad_Down:
+OPTION_KEYMAP_PAD_MIDDLE= Pad_Middle:
+
+OPTION_FONT_DEFAULT_FONT = Default Font:
+OPTION_FONT_LARGE_SIZE   = Large Size:
+OPTION_FONT_MIDDLE_SIZE  = Medium Size:
+OPTION_FONT_SMALL_SIZE   = Small Size:
+OPTION_FONT_TEST_TEXT    = Test Text:
+OPTION_FONT_TEST_TEXT_TXT= This is an Example.
+
+OPTION_SYSTEM_ASSOCIATE = Associate with *.jar files.
+OPTION_SYSTEM_SHORTCUT  = Add shortcut to right-click menu.
+OPTION_SYSTEM_XRAY_BG   = X-Ray View: OverLap images.
+OPTION_SYSTEM_XRAY_CLIP = X-Ray View: Show image clipping region.
+OPTION_SYSTEM_INFO_COLOR   = Info View: Show color in (R,G,B).
+OPTION_SYSTEM_RELEASED_IMG = Memory View: Record released images.
+OPTION_SYSTEM_AUTOGEN_JAD  = Auto Generate Jad file with \"KEmu-Platform\".
+OPTION_SYSTEM_TRACK_NEW    = Track \"new/new[]...\" operations.
+OPTION_SYSTEM_TRACK_METHOD = Track method calls.
+
+OPTION_COREAPI_VIBRATION   = Enable Vibration APIs.
+OPTION_COREAPI_KEY_REPEAT  = Enable Canvas.keyRepeated(int).
+OPTION_COREAPI_FULLSCREEN  = Ignore Canvas.setFullScreenMode(boolean).
+
+OPTION_RECORDS_RMS_FOLDER   = RMS Folder:
+OPTION_RECORDS_RMS_TEXT     = All Records in current folder:
+OPTION_RECORDS_SELECT_ALL   = Select All
+OPTION_RECORDS_CLEAR_RECORD = Clear Selected Records
+OPTION_RECORDS_OPEN_DIRECTORY = Select a directory for rms
+OPTION_RECORDS_CHOOSE_DIR   = Choose a directory
+
+OPTION_NETWORK_PROXY      = Proxy
+OPTION_NETWORK_PROXY_TYPE = ProxyType:
+OPTION_NETWORK_HOST       = Host:
+OPTION_NETWORK_PORT       = Port:
+OPTION_NETWORK_USERNAME   = Username:
+OPTION_NETWORK_PASSWORD   = Password:
+OPTION_NETWORK_DOMAIN     = Domain:
+OPTION_NETWORK_CONNECT    = Connect
+
+OPTION_NETWORK_PROXY_TEST  = Proxy Test
+OPTION_NETWORK_PROXY_EMPTY = Empty proxy host!
+OPTION_NETWORK_PROXY_UNIMP = Proxy test is underimplemented!
+
+
+#Message
+
+MESSAGE_BOX_TITLE  = KEmulator Alert
+
+LOAD_CLASSES_ERROR = Get Classes Failed!! Plz check the input jar or classpath.
+LOAD_MIDLET_ERROR  = Can not find MIDlet class. Plz check jad or use -midlet param.
+FAIL_LAUNCH_MIDLET = Fail to launch the MIDlet class:
+
+LOAD_GDIPLUS_ERROR = Can't load \" gdiplus.dll \" !!! Plz download & copy to %system32% path.
+
+
+REGISTER_TO		   = Register to
+FAIL_REGISTER_ERROR= Please purchase the software.
+

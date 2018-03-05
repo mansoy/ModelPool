@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DE5E4925-E466-4739-B92D-0B79600191E1}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="resumeExe\Inject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="resumeDll\resume.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="QuitSafe_Hand.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Inject">
+        <MSBuild Projects="resumeExe\Inject.dproj"/>
+    </Target>
+    <Target Name="Inject:Clean">
+        <MSBuild Projects="resumeExe\Inject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Inject:Make">
+        <MSBuild Projects="resumeExe\Inject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="resume">
+        <MSBuild Projects="resumeDll\resume.dproj"/>
+    </Target>
+    <Target Name="resume:Clean">
+        <MSBuild Projects="resumeDll\resume.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="resume:Make">
+        <MSBuild Projects="resumeDll\resume.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="QuitSafe_Hand">
+        <MSBuild Projects="QuitSafe_Hand.dproj"/>
+    </Target>
+    <Target Name="QuitSafe_Hand:Clean">
+        <MSBuild Projects="QuitSafe_Hand.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QuitSafe_Hand:Make">
+        <MSBuild Projects="QuitSafe_Hand.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Inject;resume;QuitSafe_Hand"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Inject:Clean;resume:Clean;QuitSafe_Hand:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Inject:Make;resume:Make;QuitSafe_Hand:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
