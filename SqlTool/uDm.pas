@@ -7,7 +7,7 @@ uses
   Vcl.Dialogs;
 
 const
-  DB_PASSWORD = '123';
+  DB_PASSWORD = '1232';
 
   FLAG_NONE = 0;
   FLAG_SEND = 1; //'正在发短信';
@@ -55,8 +55,9 @@ begin
   if not conn.Connected then
   begin
     try
-      connStr := Format('Provider=SQLOLEDB.1;Password=%s;Persist Security Info=False;User ID=sa;Initial Catalog=%s;Data Source=%s\SQLEXPRESS',
-                      [DB_PASSWORD, Database, ip]);
+      connStr := Format('Provider=SQLOLEDB.1;Password=%s;Persist Security Info=True;User ID=sa;Initial Catalog=%s;Data Source=%s',
+//      connStr := Format('Provider=SQLOLEDB.1;Password=%s;Persist Security Info=False;User ID=sa;Initial Catalog=%s;Data Source=%s\SQLEXPRESS',
+                      [pwd, Database, ip]);
       conn.ConnectionString := connStr;
       conn.Connected := True;
     except
